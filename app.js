@@ -119,7 +119,8 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
 
 //HOLDING AND TALLYING UP THE GLOBAL SCORE
 //REMEMBER WHEN PLAYER HITS A ONE, IT'S THE NEXT PLAYER'S TURN. IF HE HOLDS, IT'S AGAIN THE NEXT PLAYER'S TURN. SO IN THE SPIRIT OF DRY (DON'T REPEAT YOURSELF) THIS IS THE SAME CODE
-document.querySelector(".btn-hold").addEventListener("click", function(){
+document.querySelector(".btn-hold").addEventListener("click", function()
+{
     if (gamePlaying)
     {
     
